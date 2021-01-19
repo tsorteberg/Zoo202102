@@ -3,7 +3,7 @@ public class Dog {
 	private String type;
 	private int Age;
 	
-	public Dog() {
+	public Dog() {    //Ben's Dog, based of the Cat Class
 		super();
 	}
 	public Dog(String DogName, String type, int Age) {
