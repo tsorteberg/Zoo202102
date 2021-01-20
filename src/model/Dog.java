@@ -30,7 +30,7 @@ public class Dog {
 		this.Age = age;
 	}
 	public String toString() {
-		return "Dog [name=" + DogName + ", color=" + type + ", age=" + Age + "]";
+		return "Dog: name=" + DogName + ", color=" + type + ", age=" + Age + "";
 	}
 	public String speak() {
 		// TODO Auto-generated method stub
