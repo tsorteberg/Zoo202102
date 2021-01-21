@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Dog;
+import model.Pig;
 
 public class AnimalNoise {
 
@@ -13,6 +14,10 @@ public class AnimalNoise {
 		
 		Dog doggy = new Dog();
 		System.out.println(doggy.speak());
+		
+		Pig wilbur = new Pig();
+		System.out.println(wilbur.speak());
 
 	}
 }
+
