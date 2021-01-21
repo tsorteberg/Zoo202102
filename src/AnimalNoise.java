@@ -18,6 +18,8 @@ public class AnimalNoise {
 		Pig wilbur = new Pig();
 		System.out.println(wilbur.speak());
 
+		Cow moomoo = new Cow();
+		System.out.println(moomoo.speak());
 	}
 }
 
