@@ -14,5 +14,7 @@ public class AnimalNoise {
 		Dog doggy = new Dog();
 		System.out.println(doggy.speak());
 
+		Cow moomoo = new Cow();
+		System.out.println(moomoo.speak());
 	}
 }
