@@ -1,7 +1,9 @@
 import model.Cat;
+import model.Cow;
 import model.Dog;
 import model.Pig;
 import model.Duck;
+import model.Mongoose;
 
 public class AnimalNoise {
 
@@ -24,6 +26,9 @@ public class AnimalNoise {
 		
 		Duck ducky = new Duck();
 		System.out.println(ducky.speak());
+		
+		Mongoose rikkitikkitavi = new Mongoose();
+		System.out.println(rikkitikkitavi.speak());
 	}
 }
 
